@@ -19,20 +19,19 @@ Total audio duration: `35.9 hours`.
 
 
 ### Download
-Get the dataset from gdrive: [link](https://drive.google.com/uc?id=1d0ZY1MrcqXpq4uiOWiAR-eAQmjxlP4M0).
+Get the dataset from here: [link](https://huggingface.co/datasets/ntt123/viet-tts-dataset/blob/main/viet-tts.tar.gz).
  Or, run the following commands: 
 
 ```
-    $ pip install -Uqq gdown
-    $ gdown --id 1d0ZY1MrcqXpq4uiOWiAR-eAQmjxlP4M0
-    $ mkdir dataset
+    $ wget https://huggingface.co/datasets/ntt123/viet-tts-dataset/resolve/main/viet-tts.tar.gz -O viet-tts.tar.gz 
+    $ mkdir -p dataset
     $ tar -C dataset -xzf viet-tts.tar.gz
 ```
 
 `dataset` directory structure:
 
 ```
-├dataset/
+dataset
 ├── collections.txt
 ├── meta_data.tsv
 └── wav
