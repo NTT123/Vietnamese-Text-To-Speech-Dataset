@@ -23,9 +23,9 @@ Get the dataset from here: [link](https://huggingface.co/datasets/ntt123/viet-tt
  Or, run the following commands: 
 
 ```
-    $ wget https://huggingface.co/datasets/ntt123/viet-tts-dataset/resolve/main/viet-tts.tar.gz -O viet-tts.tar.gz 
-    $ mkdir -p dataset
-    $ tar -C dataset -xzf viet-tts.tar.gz
+wget https://huggingface.co/datasets/ntt123/viet-tts-dataset/resolve/main/viet-tts.tar.gz -O viet-tts.tar.gz 
+mkdir -p dataset
+tar -C dataset -xzf viet-tts.tar.gz
 ```
 
 `dataset` directory structure:
